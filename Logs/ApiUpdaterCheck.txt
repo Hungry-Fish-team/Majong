@@ -1,0 +1,220 @@
+[api-updater (non-obsolete-error-filter)] 30.06.2021 11:22:43 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 107,806ms
+moved types parse time: 52ms
+candidates parse time : 1ms
+C# parse time         : 254ms
+candidates check time : 46ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 12:37:58 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 60,217ms
+moved types parse time: 47ms
+candidates parse time : 1ms
+C# parse time         : 251ms
+candidates check time : 49ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 12:38:07 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 54,013ms
+moved types parse time: 50ms
+candidates parse time : 1ms
+C# parse time         : 239ms
+candidates check time : 45ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 15:12:01 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 125,115ms
+moved types parse time: 60ms
+candidates parse time : 1ms
+C# parse time         : 296ms
+candidates check time : 55ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 15:12:52 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 120,439ms
+moved types parse time: 53ms
+candidates parse time : 1ms
+C# parse time         : 278ms
+candidates check time : 50ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 15:12:55 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 58,455ms
+moved types parse time: 54ms
+candidates parse time : 1ms
+C# parse time         : 264ms
+candidates check time : 49ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 15:58:34 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 115,549ms
+moved types parse time: 53ms
+candidates parse time : 1ms
+C# parse time         : 269ms
+candidates check time : 60ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 16:22:07 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 54,674ms
+moved types parse time: 51ms
+candidates parse time : 1ms
+C# parse time         : 243ms
+candidates check time : 41ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 16:22:10 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 60,691ms
+moved types parse time: 51ms
+candidates parse time : 1ms
+C# parse time         : 245ms
+candidates check time : 42ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 30.06.2021 17:05:03 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 114,426ms
+moved types parse time: 54ms
+candidates parse time : 1ms
+C# parse time         : 259ms
+candidates check time : 46ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 01.07.2021 14:25:05 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 125,967ms
+moved types parse time: 56ms
+candidates parse time : 1ms
+C# parse time         : 326ms
+candidates check time : 60ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 01.07.2021 16:05:37 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 109,159ms
+moved types parse time: 62ms
+candidates parse time : 1ms
+C# parse time         : 317ms
+candidates check time : 68ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 01.07.2021 17:11:27 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 100,837ms
+moved types parse time: 58ms
+candidates parse time : 1ms
+C# parse time         : 284ms
+candidates check time : 70ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 01.07.2021 17:49:01 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 48,478ms
+moved types parse time: 48ms
+candidates parse time : 1ms
+C# parse time         : 248ms
+candidates check time : 59ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 11:23:39 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 72,711ms
+moved types parse time: 54ms
+candidates parse time : 1ms
+C# parse time         : 299ms
+candidates check time : 44ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 12:03:24 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 61,074ms
+moved types parse time: 49ms
+candidates parse time : 1ms
+C# parse time         : 276ms
+candidates check time : 64ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 14:36:15 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 118,138ms
+moved types parse time: 56ms
+candidates parse time : 1ms
+C# parse time         : 313ms
+candidates check time : 60ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 14:36:21 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 53,45ms
+moved types parse time: 58ms
+candidates parse time : 2ms
+C# parse time         : 273ms
+candidates check time : 61ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 15:21:37 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 111,909ms
+moved types parse time: 51ms
+candidates parse time : 1ms
+C# parse time         : 285ms
+candidates check time : 53ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 15:21:38 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 61,916ms
+moved types parse time: 48ms
+candidates parse time : 1ms
+C# parse time         : 248ms
+candidates check time : 49ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 15:23:38 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 70,712ms
+moved types parse time: 48ms
+candidates parse time : 1ms
+C# parse time         : 253ms
+candidates check time : 49ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 02.07.2021 15:23:38 : Starting /Users/severex_un_mob_06_02/Desktop/Unity/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 60,48ms
+moved types parse time: 46ms
+candidates parse time : 1ms
+C# parse time         : 252ms
+candidates check time : 49ms
+console write time    : 0ms
+
