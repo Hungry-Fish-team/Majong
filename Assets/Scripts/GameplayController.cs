@@ -32,14 +32,6 @@ public class GameplayController : MonoBehaviour
                 {
                     if (selectedCell.ToArray()[i].id == selectedCell.ToArray()[j].id)
                     {
-                        //foreach(Cell cell in _spawnZoneGenerator._cells)
-                        //{
-                        //    if(cell == selectedCell.ToArray()[i] || cell == selectedCell.ToArray()[j])
-                        //    {
-                        //        _spawnZoneGenerator._cells.Remove(cell);
-                        //    }
-                        //}
-
                         Sequence sequence = DOTween.Sequence();
 
                         sequence.AppendCallback(() =>
@@ -53,15 +45,15 @@ public class GameplayController : MonoBehaviour
                             SaveProgress();
                         });
 
-                        sequence.AppendInterval(1f);
+                        sequence.AppendInterval(1.05f);
 
                         sequence.AppendCallback(() =>
                         {
                             _spawnZoneGenerator._cells.Remove(selectedCell.ToArray()[i]);
                             _spawnZoneGenerator._cells.Remove(selectedCell.ToArray()[j]);
 
-                            Destroy(selectedCell.ToArray()[i].gameObject);
-                            Destroy(selectedCell.ToArray()[j].gameObject);
+                            if(selectedCell.ToArray()[i] != null) Destroy(selectedCell.ToArray()[i].gameObject);
+                            if (selectedCell.ToArray()[j] != null) Destroy(selectedCell.ToArray()[j].gameObject);
 
                             _spawnZoneGenerator.IsCellBlocked();
 

@@ -1,0 +1,47 @@
+{
+    "project_info": {
+        "project_number": "790221084752",
+        "project_id": "majong-e84dd",
+        "firebase_url": "https://majong-e84dd-default-rtdb.europe-west1.firebasedatabase.app/",
+        "storage_bucket": "majong-e84dd.appspot.com"
+    },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790221084752:android:3b8fa51c708da154de5955",
+        "android_client_info": {
+          "package_name": "com.Hungry.Fish.team.Majong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790221084752-mjm05n7np7d54e5c907thc0ki5rghb5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx5rtJqokZUIbtHtRhRktKi_gFyfwXWkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790221084752-mjm05n7np7d54e5c907thc0ki5rghb5q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "790221084752-6bhrmeflouc5neth5ocor57vnuultnsg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Hungry-Fish.team.Majong"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

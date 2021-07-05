@@ -10,11 +10,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Button _returnButton;
     [SerializeField] private SpawnZoneGenerator _spawnZoneGenerator;
     [SerializeField] private TextMeshProUGUI _countMathcesText;
+    [SerializeField] private AnalyticsManager _analyticsManager;
 
     private void Start()
     {
+        _analyticsManager.SendAppOpen();
+
         _restartButton.onClick.AddListener(() =>
         {
+            _analyticsManager.SendRestartGame();
             _spawnZoneGenerator.RestartGame();
             ReturnInfoMathces("");
         });

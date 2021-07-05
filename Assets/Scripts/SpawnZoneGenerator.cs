@@ -76,7 +76,7 @@ public class SpawnZoneGenerator : MonoBehaviour
     {
         int lvlIndex = (int)Random.Range(0f, 20f);
         TextAsset textAsset = Resources.Load("Levels/" + lvlIndex.ToString(), typeof(TextAsset)) as TextAsset;
-        Debug.Log(textAsset);
+        //Debug.Log(textAsset);
         Stream s = new MemoryStream(textAsset.bytes);
         _reader = new BinaryReader(s);
     }
@@ -88,10 +88,18 @@ public class SpawnZoneGenerator : MonoBehaviour
             Destroy(floor.gameObject);
         }
         _floors.Clear();
+
         _cellsPositionOnFloor.Clear();
-        if(_cells != null) _cells.Clear();
+
+        foreach(Cell cell in _cells)
+        {
+
+            Destroy(cell.gameObject);
+        }
+        _cells.Clear();
         cellStructs.Clear();
         historyOfCellClicked.Clear();
+
         _countFloors = 0;
         _loadFromSaveFile = false;
 

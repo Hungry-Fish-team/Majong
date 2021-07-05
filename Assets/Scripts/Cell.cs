@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Cell: MonoBehaviour
+public class Cell : MonoBehaviour
 {
     [SerializeField] private GameplayController _gameplayController;
 
@@ -17,13 +17,13 @@ public class Cell: MonoBehaviour
 
     public int id;
     public Vector2 position;
-    public bool selected; 
+    public bool selected;
     public bool blocked;
     public Color color;
     public int floor;
 
-    [SerializeField]private Color _blockColor;
-    [SerializeField]private Color _selectColor;
+    [SerializeField] private Color _blockColor;
+    [SerializeField] private Color _selectColor;
 
     public void InitializeCell(int id, Vector2 position, bool selected, bool blocked, Color color, int floor, GameplayController gameplayController)
     {
@@ -39,8 +39,14 @@ public class Cell: MonoBehaviour
         _logo.sprite = Resources.Load("food/" + (id + 1).ToString() + "@8x", typeof(Sprite)) as Sprite;
 
         Sequence sequence = DOTween.Sequence();
-
-        sequence.Append(ShowCell());
+        sequence.AppendCallback(() =>
+        {
+            Debug.Log(_rectTransform == null);
+            if (_rectTransform != null)
+            {
+                _rectTransform.DOAnchorPos(position, 1f);
+            }
+        });
 
         ChangeInitColor();
         ChangeInitShadow();
@@ -72,7 +78,7 @@ public class Cell: MonoBehaviour
             ChangeInitColor();
         }
     }
-   
+
 
     public void ChangeInitColor()
     {
@@ -132,7 +138,6 @@ public class Cell: MonoBehaviour
     public Tween ShowCell()
     {
         Sequence sequence = DOTween.Sequence();
-
         sequence.AppendCallback(() =>
         {
             _rectTransform.DOAnchorPos(position, 1f);
@@ -140,6 +145,7 @@ public class Cell: MonoBehaviour
 
         return sequence;
     }
+
 
     public Tween HideCell()
     {
@@ -152,9 +158,19 @@ public class Cell: MonoBehaviour
 
         sequence.AppendCallback(() =>
         {
-            _rectTransform.GetComponent<CanvasGroup>().DOFade(0f, 1f);
+            if (_rectTransform.GetComponent<CanvasGroup>() != null)
+            {
+                _rectTransform.GetComponent<CanvasGroup>().DOFade(0f, 1f);
+            }
         });
 
         return sequence;
+    }
+
+    private void OnDestroy()
+    {
+        DOTween.Kill(_rectTransform);
+        DOTween.Kill(this);
+        DOTween.Kill(_rectTransform.GetComponent<CanvasGroup>());
     }
 }
